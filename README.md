@@ -1,3 +1,5 @@
-# System_Hotel_Management
+# System Hotel Management
 
- <p align="center"> <img src="hotel-screen.png" title="System Hotel Management "><br> SpreedSheet</p> 
+ <p align="center"> <img src="mainwindow.png" title="System Hotel Management "><br> System Hotel Management</p>
+ 
+ 
