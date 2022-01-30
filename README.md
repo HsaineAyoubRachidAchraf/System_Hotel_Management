@@ -14,10 +14,37 @@ for the quality of his exceptional coaching, his patience, his rigour and his
 availability during our preparation of this project.
 We would like to thank my team who contributed to the success of our project
 tutor who helped us a lot in the development of our project.
-</p>
+
 <h1 align="center">About Application</h1>
 
 System Hotel Management is an appliaction created by **Qt Creator using C++**,is an application allow clients to check the available of rooms then you can book a room available,after this operation we will show your id_number that is mean your number as client in our service when you click on **Transaction Button**,finnally when you want to leave the hotel just check out for ake the room available for other client.
+
+<h1 align="center">How Application is built?</h1>
+
+1. Our application contain five forms,each one have a specific task to do,you will find in the table bellow details of forms:
+
+
+| Form        | Execution   | Description   |
+| :---        |    :----:   | :---          |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+
+| Form                  | Description | Execution                                                                                        |      |
+| ----------------------| ----------- |--------------------------------------------------------------------------------------------------|      |
+| mainwindow.ui         |Is the principle form, it contain:menubar,toolbar,Qaction,4PushButton,picture of hotel,calendar...              |      |
+| bookroomdialog.ui     | this form contain a dialog that client should fill in to book a room,it contain labels,combobox,lineedit...    |      |
+| chechoutdialog.ui     | Text        |                                                                                                  |      |
+| roomavailabledialog.ui| Text        |                                                                                                  |      |
+| transaction.ui        | Text        |                                                                                                  |      |
+
+2.
+
+
+
+
+
+
 
 
 
