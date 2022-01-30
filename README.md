@@ -18,25 +18,25 @@ tutor who helped us a lot in the development of our project.
 
 <h1 align="center">About Application</h1>
 
-System Hotel Management is an appliaction created by **Qt Creator using C++**,is an application allow clients to check the available of rooms then you can book a room available,after this operation we will show your id_number that is mean your number as client in our service when you click on **Transaction Button**,finnally when you want to leave the hotel just check out for ake the room available for other client.
+System Hotel Management is an appliaction created by **Qt Creator using C++**,is an application allow clients to check the available of rooms then you can book a room available,after this operation we will show your id_number that is mean your number as client in our service when you click on **Transaction Button**,finnally when you want to leave the hotel just check out for make the room available for other client.
 
 <h1 align="center">Steps To use Application</h1>
 
-1. 
-2. 
-3.  
-4.  
-5.  
-6.  
-7.  
-8.  
-9.  
-10.  
+First of all ou should to do it to go the menu bar:
+1. click on **BARAHA HOTEL** then**About Hotel** to show information about our services.
+2. click on **Price** to know the price of each room category.
+3.  Check the availibilty of the rooms.
+4.  Now, we move to button**roombooking**,click on it, fill in the form and click on **sumbit**to valid the reservation.
+5.  If you wnt to know your id as client,you should click on **trasaction**.
+6.  Know you can quit the application,go to menu bar, click on **BARAHA HOTEL** then**Exit**
+7.  When you want to check out the hotel,go to**Button: check out** and choose the number of room selected in your reservation, check out and automaticaly you will quit the application.
+8.  We hope you had a good time. 
+
 
 
 <h1 align="center">How Application is built?</h1>
 
-1. Our application contain five forms,each one have a specific task to do,you will find in the table bellow details of forms:
+1. Our application contain five forms,each one have a specific task to do,the first one is the **mainwindow.ui**:Is the principle form, it contain:menubar,toolbar,Qaction,PushButtons,picture of hotel,calendar...you will find in the table bellow details of forms that remain:
 
 | Form        | Execution   | Description   |
 | :---        |    :----:   | :---          |
@@ -46,11 +46,15 @@ System Hotel Management is an appliaction created by **Qt Creator using C++**,is
 | roomavailabledialog.ui   | <p> <img src="available.png" title="Available"></p>          | This form is a dialog contain labels for number of rooms and agroupbox gather this labels       |
 
 
+2. The **menubar** contain **tree menu**each one have two **QAcion**,the first one**BARAHA Hotel**,the first action display information about the hotel,the second to quit the application,the second one **Price** the both action display the price,the last one **Help** hive you inforamation about QT and the application.
+3. Each Action have an icon and eachdailog have as well an icon.
+4. THe size of all foems is fixed.
+5. The toolbar contain all icons of the actions.
+6. We are trying to use maximum concepts and tools in this course.
+7. The application is built using **MVC Model** especially SQLDATABASE.is responsible for managing of database .
+8. Also we are using **Item Based** especially Listwidget in the form transaction.
 
-| mainwindow.ui         |Is the principle form, it contain:menubar,toolbar,Qaction,4PushButton,picture of hotel,calendar...              |      |
 
-
-2.
 
 
 
