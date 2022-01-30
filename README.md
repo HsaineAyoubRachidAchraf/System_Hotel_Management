@@ -20,6 +20,20 @@ tutor who helped us a lot in the development of our project.
 
 System Hotel Management is an appliaction created by **Qt Creator using C++**,is an application allow clients to check the available of rooms then you can book a room available,after this operation we will show your id_number that is mean your number as client in our service when you click on **Transaction Button**,finnally when you want to leave the hotel just check out for ake the room available for other client.
 
+<h1 align="center">Steps To use Application</h1>
+
+1. 
+2. 
+3.  
+4.  
+5.  
+6.  
+7.  
+8.  
+9.  
+10.  
+
+
 <h1 align="center">How Application is built?</h1>
 
 1. Our application contain five forms,each one have a specific task to do,you will find in the table bellow details of forms:
@@ -37,6 +51,20 @@ System Hotel Management is an appliaction created by **Qt Creator using C++**,is
 
 
 2.
+
+
+
+
+<h1 align="center">Conclusion</h1>
+
+<h1 align="center">Contact</h1>
+
+ayoub.hsaine@eidia.ueuromed.org
+
+achraf.rachid@eidia.ueuromed.org
+
+achraf.berriane@eidia.ueuromed.org
+
 
 
 
