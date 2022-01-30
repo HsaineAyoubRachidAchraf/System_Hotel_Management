@@ -1,6 +1,7 @@
 <h1 align="center">System Hotel Management</h1>
 <p align="center"> <img src="mainwindow.png" title="System Hotel Management "><br> System Hotel Management</p>
 
+
 <h1 align="center">Introduction</h1>
 
 As part of our first year in engineering, specializing in robotics and cobotics at the School of Digital Engineering and Artificial Intelligence at the euromed University of Fez, our professor proposed to us to create an application as a final project after we are finished the course of human-machine interaction using **QT designer c++**.
@@ -23,20 +24,17 @@ System Hotel Management is an appliaction created by **Qt Creator using C++**,is
 
 1. Our application contain five forms,each one have a specific task to do,you will find in the table bellow details of forms:
 
-
 | Form        | Execution   | Description   |
 | :---        |    :----:   | :---          |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| bookroomdialog.ui      | <p> <img src="roombook.png" title="Roombooking"></p>       | This form contain a dialog that client should fill in when he/she click on **room booking** after checking the availibillity of rooms,you should be select a room and put all information.<br>it contain labels,combobox,lineedit,two pushbutton and verticalspacer   |
+| transaction.ui   | <p> <img src="transaction.png" title="Transaction"></p>        | This form contain label and a listwidget that show the id of client and and the numer of room selected       |
+| chechoutdialog.ui   | <p> <img src="chechout.png" title="Check out"></p>          | This form is a dialog contain a combobox,label and pushbutton to valid your check out      |
+| roomavailabledialog.ui   | <p> <img src="available.png" title="Available"></p>          | This form is a dialog contain labels for number of rooms and agroupbox gather this labels       |
 
 
-| Form                  | Description | Execution                                                                                        |      |
-| ----------------------| ----------- |--------------------------------------------------------------------------------------------------|      |
+
 | mainwindow.ui         |Is the principle form, it contain:menubar,toolbar,Qaction,4PushButton,picture of hotel,calendar...              |      |
-| bookroomdialog.ui     | this form contain a dialog that client should fill in to book a room,it contain labels,combobox,lineedit...    |      |
-| chechoutdialog.ui     | Text        |                                                                                                  |      |
-| roomavailabledialog.ui| Text        |                                                                                                  |      |
-| transaction.ui        | Text        |                                                                                                  |      |
+
 
 2.
 
