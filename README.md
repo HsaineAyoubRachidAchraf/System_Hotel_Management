@@ -55,6 +55,14 @@ First of all ou should to do it to go the menu bar:
 8. Also we are using **Item Based** especially Listwidget in the form transaction.
 
 
+<h2 align="center">Compilation</h2>
+
+https://user-images.githubusercontent.com/93345744/152611308-d8e4f65a-4ef6-4ca6-baa7-7d41b1cbfbc7.mp4
+
+
+
+
+https://user-images.githubusercontent.com/93345744/152612941-2dcb4d6d-80e6-464c-801b-64d4f34379b4.mp4
 
 
 
@@ -68,6 +76,10 @@ ayoub.hsaine@eidia.ueuromed.org
 achraf.rachid@eidia.ueuromed.org
 
 achraf.berriane@eidia.ueuromed.org
+
+
+
+
 
 
 
