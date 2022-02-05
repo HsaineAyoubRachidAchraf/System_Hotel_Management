@@ -55,6 +55,297 @@ First of all ou should to do it to go the menu bar:
 8. Also we are using **Item Based** especially Listwidget in the form transaction.
 
 
+<details>
+<summary>Headers</summary>
+<br>
+  
+<details>
+<summary>bookroomdialog.h</summary>
+<br>
+ 
+```
+#ifndef BOOKROOMDIALOG_H
+#define BOOKROOMDIALOG_H
+#include <QDialog>
+#include <QtDebug>
+#include <QSqlDatabase>
+#include <QSqlDriver>
+#include <QSqlError>
+#include <QSqlQuery>
+#include <QFile>
+#include <vector>
+#include <QMessageBox>
+
+#include "hotel.h"
+
+namespace Ui {
+class BookRoomDialog;
+}
+
+class BookRoomDialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit BookRoomDialog(QWidget *parent = nullptr);
+    ~BookRoomDialog();
+    void readData();
+
+    QString getname()const;
+    int combobox()const;
+    QString getaddres()const;
+    QString getphone()const; 
+
+private slots:
+    void on_btnCancel_clicked();
+    void on_btnSubmit_clicked();
+
+private:
+    Ui::BookRoomDialog *ui;
+
+};
+
+#endif // BOOKROOMDIALOG_H
+
+```
+</details>
+
+<details>
+<summary>checkoutdialog.h</summary>
+<br>
+ 
+```
+#ifndef CHECKOUTDIALOG_H
+#define CHECKOUTDIALOG_H
+
+#include <QDialog>
+#include <QDebug>
+#include <QSqlQuery>
+#include <QFile>
+#include <QSqlDatabase>
+#include <QSqlError>
+#include <hotel.h>
+#include <QMessageBox>
+
+namespace Ui {
+class CheckOutDialog;
+}
+
+class CheckOutDialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit CheckOutDialog(QWidget *parent = nullptr);
+    ~CheckOutDialog();
+    void readData();
+    //int box()const;
+
+
+private slots:
+    void on_btnCancel_clicked();
+    void on_btnCheckout_clicked();
+private:
+    Ui::CheckOutDialog *ui;
+};
+
+#endif // CHECKOUTDIALOG_H
+ 
+```
+</details>
+  
+  
+<details>
+<summary>roomavailabledailog.h></summary>
+<br>
+ 
+```
+#ifndef ROOMAVAILABLEWINDOW_H
+#define ROOMAVAILABLEWINDOW_H
+#include <QDialog>
+#include <QDebug>
+#include <hotel.h>
+
+namespace Ui {
+class RoomAvailableDialog;
+}
+
+class RoomAvailableDialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit RoomAvailableDialog(QWidget *parent = nullptr);
+    ~RoomAvailableDialog();
+    void readData();
+
+    QString groupBox()const;
+private slots:
+    void on_pushButton_clicked();
+
+private:
+    Ui::RoomAvailableDialog *ui;
+};
+#endif // ROOMAVAILABLEWINDOW_H
+ 
+```
+</details> 
+  
+<details>
+<summary>transaction.h</summary>
+<br>
+ 
+```
+#ifndef TRANSACTION_H
+#define TRANSACTION_H
+#include <QSqlDatabase>
+#include <QSqlDriver>
+#include <QSqlError>
+#include <QSqlQuery>
+#include <QFile>
+#include <QDebug>
+#include <QSqlTableModel>
+#include <QDialog>
+
+namespace Ui {
+class transaction;
+}
+
+class transaction : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit transaction(QWidget *parent = nullptr);
+    void readData();
+    ~transaction();
+
+private:
+    Ui::transaction *ui;
+};
+#endif // TRANSACTION_H
+ 
+```
+</details> 
+  
+  
+<details>
+<summary>hotel.h</summary>
+<br>
+ 
+```
+#ifndef HOTEL_H
+#define HOTEL_H
+
+#include <QDialog>
+#include <QDebug>
+#include <QSqlQuery>
+#include <QFile>
+#include <QSqlDatabase>
+#include <QSqlError>
+#include<vector>
+
+class Hotel
+{
+private:
+    Hotel(){}
+    Hotel(Hotel const &){}
+    static Hotel * instance;
+    void updateHotelData(int room); //update DB & Vector
+
+public:
+    int BookRoom(int roomno, QString name, QString contactno, QString govid, QString address);
+    int CheckOut(int roomno);
+    std::vector<int> RoomAvailability();
+    std::vector<int> getRoomList(QString);  //return vector
+    static Hotel* getInstance();
+
+};
+
+#endif // HOTEL_H
+ 
+```
+</details> 
+  
+<details>
+<summary>mainwindow.h</summary>
+<br>
+ 
+```
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include "bookroomdialog.h"
+#include "checkoutdialog.h"
+#include "roomavailabledialog.h"
+#include "transaction.h"
+
+namespace Ui {
+class MainWindow;
+}
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+private:
+    RoomAvailableDialog * ptrRoomAvailableDlg;
+    CheckOutDialog * ptrCheckOutDlg;
+    BookRoomDialog * ptrRoomBookingDlg;
+    transaction * ptrTransaction;
+
+public:
+    explicit MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+private slots:
+    void on_btnRoomBooking_clicked();
+    void on_btnRoomCheckout_clicked();
+    void on_btnCheckAvailability_clicked();
+    void on_bntTransaction_clicked();
+    void on_actionAbout_Application_triggered();
+
+    void on_actionAbout_QT_triggered();
+
+    void on_actionInformation_BARAHA_Hotel_triggered();
+
+    void on_actionExit_triggered();
+
+    void on_actionSingle_room_triggered();
+
+    void on_actionDouble_room_triggered();
+
+private:
+    Ui::MainWindow *ui;
+};
+
+#endif // MAINWINDOW_H
+ 
+```
+</details> 
+  
+</details>
+
+<details>
+<summary>Sources</summary>
+<br>
+ 
+```
+  
+```
+</details>
+
+
+<details>
+<summary>Forms</summary>
+<br>
+ 
+```
+  
+```
+</details>
+
 <h2 align="center">Compilation</h2>
 
 https://user-images.githubusercontent.com/93345744/152611308-d8e4f65a-4ef6-4ca6-baa7-7d41b1cbfbc7.mp4
