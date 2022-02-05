@@ -54,7 +54,8 @@ First of all ou should to do it to go the menu bar:
 7. The application is built using **MVC Model** especially SQLDATABASE.is responsible for managing of database .
 8. Also we are using **Item Based** especially Listwidget in the form transaction.
 
-
+<h2 align="center">Code source</h2>
+You will find our code 
 <details>
 <summary>Headers</summary>
 <br>
@@ -331,9 +332,72 @@ private:
 <summary>Sources</summary>
 <br>
  
+<details>
+<summary>bookroomdialog.cpp</summary>
+<br>
+ 
 ```
   
 ```
+</details>
+
+  
+<details>
+<summary>checkoutdialog.cpp</summary>
+<br>
+ 
+```
+  
+```
+</details>
+  
+<details>
+<summaryroomavailabledialog.cpp></summary>
+<br>
+ 
+```
+  
+```
+</details> 
+  
+<details>
+<summary>transaction.cpp</summary>
+<br>
+ 
+```
+  
+```
+</details>  
+  
+<details>
+<summary>hotel.cpp</summary>
+<br>
+ 
+```
+  
+```
+</details>  
+  
+  
+<details>
+<summary>mainwindow.cpp</summary>
+<br>
+ 
+```
+  
+```
+</details>   
+  
+ 
+<details>
+<summary>main.cpp</summary>
+<br>
+ 
+```
+  
+```
+</details>    
+  
 </details>
 
 
