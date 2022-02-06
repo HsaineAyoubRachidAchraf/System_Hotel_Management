@@ -5,7 +5,8 @@
 <h1 align="center">Introduction</h1>
 
 As part of our first year in engineering, specializing in robotics and cobotics at the School of Digital Engineering and Artificial Intelligence at the euromed University of Fez, our professor proposed to us to create an application as a final project after we are finished the course of human-machine interaction using **QT designer c++**.
-
+If you want to know more information about this course click on the link bellow:
+<https://anassbelcaid.github.io/CS311/>
 <h1 align="center">Thankfulness</h1>
 
 First of all, to begin this report, we would like to express our thanks to
@@ -2187,18 +2188,15 @@ https://user-images.githubusercontent.com/93345744/152612941-2dcb4d6d-80e6-464c-
 To sum up I can say that this project allowed us to practice all our knowledge that we learned from this course. we have put all our knowledge and our time to create this application that manages the hotel booking of customers and we will develop it in the future by adding other tasks.
 finally the application we developed allowed us to discover other library ,practice reading QT documentation and calculate complexity and try to minimize the code.  
   
-<h1 align="center">Contact</h1>
+<h1 align="center">Contact and Team</h1>
   
 
   
-ayoub.hsaine@eidia.ueuromed.org
-
-achraf.rachid@eidia.ueuromed.org
-
-achraf.berriane@eidia.ueuromed.org
 
 
-
+<ayoub.hsaine@eidia.ueuromed.org>
+<achraf.rachid@eidia.ueuromed.org>
+<achraf.berriane@eidia.ueuromed.org>
 
 
 
