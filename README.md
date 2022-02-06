@@ -46,9 +46,9 @@ First of all ou should to do it to go the menu bar:
 | roomavailabledialog.ui   | <p> <img src="available.png" title="Available"></p>          | This form is a dialog contain labels for number of rooms and agroupbox gather this labels       |
 
 
-2. The **menubar** contain **tree menu**each one have two **QAcion**,the first one**BARAHA Hotel**,the first action display information about the hotel,the second to quit the application,the second one **Price** the both action display the price,the last one **Help** hive you inforamation about QT and the application.
+2. The **menubar** contain **tree menu** each one have two **QAcion**,the first one**BARAHA Hotel**,the first action display information about the hotel,the second to quit the application,the second one **Price** the both action display the price,the last one **Help** have inforamation about QT and the application.
 3. Each Action have an icon and eachdailog have as well an icon.
-4. THe size of all foems is fixed.
+4. THe size of all forms is fixed.
 5. The toolbar contain all icons of the actions.
 6. We are trying to use maximum concepts and tools in this course.
 7. The application is built using **MVC Model** especially SQLDATABASEMODEL.is responsible for managing of database .
@@ -62,7 +62,7 @@ You will find our code
 <details>
 <summary>Headers</summary>
 <br>
-  
+ 
 <details>
 <summary>bookroomdialog.h</summary>
 <br>
