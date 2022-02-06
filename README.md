@@ -43,7 +43,7 @@ First of all ou should to do it to go the menu bar:
 | bookroomdialog.ui      | <p> <img src="roombook.png" title="Roombooking"></p>       | This form contain a dialog that client should fill in when he/she click on **room booking** after checking the availibillity of rooms,you should be select a room and put all information.<br>it contain labels,combobox,lineedit,two pushbutton and verticalspacer   |
 | transaction.ui   | <p> <img src="transaction.png" title="Transaction"></p>        | This form contain label and a listwidget that show the id of client and and the numer of room selected       |
 | chechoutdialog.ui   | <p> <img src="chechout.png" title="Check out"></p>          | This form is a dialog contain a combobox,label and pushbutton to valid your check out      |
-| roomavailabledialog.ui   | <p> <img src="available.png" title="Available"></p>          | This form is a dialog contain labels for number of rooms and a groupbox gather this labels the background of labels that contain numbers display in grey color and numbers with aqua color when we book a room the background of label change to lightgrey.        |
+| roomavailabledialog.ui   | <p> <img src="available.png" title="Available"></p>          | This form is a dialog contain labels for number of rooms and a groupbox gather this labels.        |
 
 
 2. The **menubar** contain **tree menu** each one have two **QAcion**,the first one**BARAHA Hotel**,the first action display information about the hotel,the second to quit the application,the second one **Price** the both action display the price,the last one **Help** have inforamation about QT and the application.
@@ -57,7 +57,13 @@ First of all ou should to do it to go the menu bar:
 
 
 <h2 align="center">Code Source</h2>
-You will find our implimentation of each form,the class hotel is contained the implimentation of the method bookroom it responsible to insert all information of customer in all tables (bookroom,trasaction)and method check out responsible to check out it contain te code if customer want to quit the hotel and update the room to make it available.the vector getroomlist is responsible to select  all rooms form database in order to dispaly its when we call it in available room and getinstance is to get instance form the class hotel(is construction of class)
+
+* You will find our implimentation of each form,the class hotel is contained the implimentation of the method bookroom it responsible to insert all information of customer in all tables (bookroom,trasaction)and method check out responsible to check out it contain the code if customer want to quit the hotel and update the room to make it available.the vector getroomlist is responsible to select  all rooms form database in order to dispaly its when we call it in available room and getinstance is to get instance form the class hotel(is construction of class).
+* Mainwindow class: contain all button click slots each one responsible for a task,all of them displays what you will explain in each bellow class,also it contain the implimentation of slots of other action like single room information about QT... 
+* bookroom class :contain a method **readdata** and two slots (sumbit and cancel),the method readdata:is responsible to get and select all rooms from database using the  vector getroomlist and browse the all vector to display it in combobox,and **cancel button** is to quit if you don't want to complete the registration, and **sumbit** to get the information in database.
+* checkout class : contain a method **readdata** and two slots (checkout and cancel),the method readdata:is responsible to get and select all rooms booking from database using the vector getroomlist and browse the all vector to display it in combobox and the client choose the room that has selected and check out,and **cancel button** is to quit if you don't want to check out, and **checkout** to check out the hotel and when you click on this button the database is updating and the room will be available again and you will quit automatically the application. 
+* roomavailbale class: the background of labels that contain numbers display in grey color and numbers with aqua color when we book a room the background of label change to lightgrey.
+* ttansaction class : responsible to get the attributes from table transaction ad disply it on the listwidget .
 <details>
 <summary>Headers</summary>
 <br>
