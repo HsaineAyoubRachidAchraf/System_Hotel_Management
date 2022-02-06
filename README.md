@@ -2174,6 +2174,7 @@ int main(int argc, char *argv[])
 <h2 align="center">Compilation</h2>
  
 1. video 1 :Show application structure
+ 
 https://user-images.githubusercontent.com/93345744/152611308-d8e4f65a-4ef6-4ca6-baa7-7d41b1cbfbc7.mp4
 
 
@@ -2198,7 +2199,9 @@ finally the application we developed allowed us to discover other library ,pract
 
 
 <ayoub.hsaine@eidia.ueuromed.org>
+ 
 <achraf.rachid@eidia.ueuromed.org>
+ 
 <achraf.berriane@eidia.ueuromed.org>
 
 
