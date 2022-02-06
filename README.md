@@ -18,7 +18,7 @@ tutor who helped us a lot in the development of our project.
 
 <h1 align="center">About Application</h1>
 
-System Hotel Management is an appliaction created by **Qt Creator using C++**,is an application allow clients to check the available of rooms then you can book a room available,after this operation we will show your id_number that is mean your number as client in our service when you click on **Transaction Button**,finnally when you want to leave the hotel just check out for make the room available for other client.
+System Hotel Management is an appliaction created by **Qt Creator using C++**,is an application allow clients to check firstly the available rooms, then you can book a available room, after this operation we will show your id_number that is mean your number as client in our service when you click on **Transaction Button**,finnally when you want to leave the hotel just check out in order to make the room available for an other client.
 
 <h1 align="center">Steps To use Application</h1>
 
