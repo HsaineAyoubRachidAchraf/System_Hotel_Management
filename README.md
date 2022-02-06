@@ -54,8 +54,7 @@ First of all ou should to do it to go the menu bar:
 7. The application is built using **MVC Model** especially SQLDATABASEMODEL.is responsible for managing of database .
 8. Also we are using **Item Based** especially Listwidget in the form transaction.
 
-<h2>Code Explanation</h2>
-In our application we are created four dialog  and mainwindow and hotel class contain the implimentation of the methods of each pushbutton
+
 
 <h2 align="center">Code Source</h2>
 You will find our code 
