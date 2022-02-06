@@ -28,7 +28,7 @@ First of all ou should to do it to go the menu bar:
 3.  Check the availibilty of the rooms.
 4.  Now, we move to button**roombooking**,click on it, fill in the form and click on **sumbit**to valid the reservation.
 5.  If you wnt to know your id as client,you should click on **trasaction**.
-6.  Know you can quit the application,go to menu bar, click on **BARAHA HOTEL** then**Exit**
+6.  Know you can quit the application,go to menu bar, click on **BARAHA HOTEL** then**Exit** 
 7.  When you want to check out the hotel,go to**Button: check out** and choose the number of room selected in your reservation, check out and automaticaly you will quit the application.
 8.  We hope you had a good time. 
 
