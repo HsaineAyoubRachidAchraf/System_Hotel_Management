@@ -51,10 +51,13 @@ First of all ou should to do it to go the menu bar:
 4. THe size of all foems is fixed.
 5. The toolbar contain all icons of the actions.
 6. We are trying to use maximum concepts and tools in this course.
-7. The application is built using **MVC Model** especially SQLDATABASE.is responsible for managing of database .
+7. The application is built using **MVC Model** especially SQLDATABASEMODEL.is responsible for managing of database .
 8. Also we are using **Item Based** especially Listwidget in the form transaction.
 
-<h2 align="center">Code source</h2>
+<h2>Code Explanation</h2>
+In our application we are created four dialog  and mainwindow and hotel class contain the implimentation of the methods of each pushbutton
+
+<h2 align="center">Code Source</h2>
 You will find our code 
 <details>
 <summary>Headers</summary>
